@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body section, header {
+	display: block;
+}
+header {
+	width: 100%;
+	padding: 30px 0;
+}
+
+header nav, header div {
+	display: inline-block;
+}
+
+header nav {
+	width: 84%;
+}
+
+header div {
+	width: 15%;
+	text-align: right;
+}
+
+header nav a {
+	margin-right: 8%;
+	text-decoration: none;
+	color: grey;
+}
+
+header img {
+	vertical-align: middle;
+}
+
+section.hero {
+	padding: 50px 0;
+}
+
+section.hero div{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+section.hero div h1 {
+	font-size: 5em;
+}
+
+section.hero div button {
+	color: #000;
+	background: #fff;
+	border: 2px solid black;
+	padding: 5px 40px;
+	font-size: 1em;
+}
+
+hr {
+	margin: 30px 0;
+}
+
+section.info, section.divider, section.features {
+	margin-bottom: 30px;
+}
+
+section.info div {
+	display: inline-block;
+	width: 49%;
+	padding-right: 2%;
+}
+
+section.divider img {
+	width: 100%;
+	height: auto;
+}
+
+section.features div {
+	display: inline-block;
+	width: 32%;
+	padding-right: 2%;
+}
+
+footer p{
+	margin: 10px 0;
+}
+
+footer p.copyright {
+	text-align: center;
+	margin: 50px 20% 100px;
+}
