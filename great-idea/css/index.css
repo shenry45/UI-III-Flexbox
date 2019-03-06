@@ -219,6 +219,32 @@ section.services button {
 	border: 1px solid #000;
 }
 
+section.icons {
+	position: fixed;
+	left: 0;
+	top: 40%;
+	background-color: #dbf0ff;
+}
+
+section.icons div {
+	display: flex;
+	width: 75px;
+	padding: 10px 0;
+	justify-content: space-around;
+	flex-flow: column wrap;
+	text-align: center;
+}
+
+section.icons i {
+	font-size: 2em;
+	margin: 0 20px 10px 20px;
+	color: #000;
+}
+
+section.icons i:hover {
+	color: #159af9;;
+}
+
 section.facts {
 	display: flex;
 	justify-content: space-between;
