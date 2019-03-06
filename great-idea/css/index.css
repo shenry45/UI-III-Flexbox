@@ -304,4 +304,13 @@ footer p.copyright {
 		width: 100%;
 		margin-bottom: 15px;
 	}
+
+	section.services {
+		display: block;
+	}
+
+	section.services div {
+		display: block;
+		width: auto;
+	}
 }
